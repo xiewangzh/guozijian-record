@@ -6,7 +6,7 @@ import exifr from "exifr";
 
 interface ImageUploadProps {
   defaultDate?: string;
-  onUploaded: () => void;
+  onUploaded?: () => void;
 }
 
 export default function ImageUpload({ defaultDate, onUploaded }: ImageUploadProps) {
