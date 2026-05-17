@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import { cookies } from "next/headers";
 import { createServerClientInstance } from "@/lib/supabase/server";
 import Navbar from "@/components/Navbar";
